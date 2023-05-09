@@ -9,7 +9,7 @@ img.style.zIndex = "9999999";
 document.body.appendChild(img);
 
 var audio = new Audio(
-  "https://github.com/RyBeau/UnregistedHyperCam/raw/main/unregistered-hypercam.mp3"
+  "https://raw.githubusercontent.com/RyBeau/UnregisteredHyperCam/main/unregistered-hypercam.mp3"
 );
 audio.loop = true;
 
