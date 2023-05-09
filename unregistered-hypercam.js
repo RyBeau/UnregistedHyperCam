@@ -4,12 +4,12 @@ img.src =
 img.style.position = "fixed";
 img.style.top = "0";
 img.style.left = "0";
-img.height = "30";
-img.zIndex = "9999999";
+img.style.height = "30px";
+img.style.zIndex = "9999999";
 document.body.appendChild(img);
 
 var audio = new Audio(
-  "https://cdn.jsdelivr.net/gh/RyBeau/UnregisteredHyperCam@main/unregistered-hypercam.mp3"
+  "https://github.com/RyBeau/UnregistedHyperCam/raw/main/unregistered-hypercam.mp3"
 );
 audio.loop = true;
 
